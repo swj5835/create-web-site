@@ -137,3 +137,98 @@ create web site by python
     
 </body>
 </html>
+
+
+##테이블##
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th{
+            background-color: #96d4d4;
+            border: 1px dotted black;
+            border-radius: 10px;
+        }
+        td{
+            background-color: #96acd4;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>회사 테이블</h1>
+    <table border="1"; border-collapse="border-collapse">
+        <tr>
+            <th>번호</th>
+            <th>이름</th>
+            <th>회사명</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>홍길동</td>
+            <td>삼성전자</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>홍길동</td>
+            <td>LG전자</td>
+        </tr>
+
+    </table>
+</body>
+</html>
+
+
+
+##css class##
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Class</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{background-color: antiquewhite;}
+        h1{color: #0000ff;}
+        p{color: #ff0000;}
+    </style>
+</head>
+<body>
+    <h1>아름다운 강산</h1>
+    <p> 하늘은 파랗게 구름은 하얗게</p>
+    <pre>하늘은 파랗게 구름은 하얗게
+        실바람도 불어와 부품은 내마음
+    </pre>
+
+
+</body>
+</html>
+
+
+##이미지##
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <h1>이미지</h1>
+    <img src="https://image.idus.com/image/files/da634c3f22414f21ac2bbb9f0b9fa318.jpg" alt="after glow" width="200" height="200"
+</body>
+</html>
