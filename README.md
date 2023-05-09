@@ -433,3 +433,59 @@ create web site by python
 결과값:![image](https://user-images.githubusercontent.com/107772468/237026938-ca4ed71c-6892-4347-9ca0-9f95c2b9faba.png)
 
 
+### 사이트 들어가기###
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .f_bold {font-weight: bold;}
+        .f_italic{font-style: italic;}
+        .f_big{font-size: 2em;}
+        .f_center{text-align: center;}
+        .bottom{width: 160px; height: 80px;
+            background-color: yellow;
+            border: 10px solid black;
+            border-radius: 30px;
+            box-shadow: 5px 5px 5px #a9a9a9;
+        }
+        .button>a{ display: block;
+        line-height: 80px;}
+    </style>
+</head>
+<body>
+    <div class="button f_bold f_italic f_big f_center">
+        <a href="https://github.com/swj5835/create-web-site/blob/main/README.md"> click</a>
+    </div>
+      
+</body>
+</html>
+
+###박스???###
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{ width: 200px; height: 200px; background-color: red; margin: 10px; padding:10px; float:left; font-size: 3em;}
+    </style>
+</head>
+<body>
+    <div class="box">1</div>
+    <div class="box">2</div>
+
+    
+</body>
+</html>
+
+결과값:![image](https://user-images.githubusercontent.com/107772468/237033169-1811dab6-a05c-4dc8-a92f-6702023d9557.png)
+
+
+
