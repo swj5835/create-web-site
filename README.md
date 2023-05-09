@@ -232,3 +232,204 @@ create web site by python
     <img src="https://image.idus.com/image/files/da634c3f22414f21ac2bbb9f0b9fa318.jpg" alt="after glow" width="200" height="200"
 </body>
 </html>
+
+    
+    
+    ###23-05-09##
+    
+  <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header{width: 800px; margin:0 auto;
+                background: red;}
+        #wrap{width: 800px; margin: 0 auto;
+              overflow: hidden;}
+        #aside{width: 200px; float: left;
+            background: green;}
+        #content{width: 600px; float: left;
+            background: blue;}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1> #header</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>#aside</h1>
+        </div>
+        <div id="content">
+            <h1>#content</h1>
+        </div>
+    </div>
+
+
+</body>
+</html>
+    
+    
+ ##좋아하는 과일 색깔 덮기##
+    
+ <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .select{color:red;}
+    </style>
+</head>
+<body>
+    <h1> 좋아하는 과일</h1>
+    <ul>
+        <li class=" select"> 사과</li> 
+        <li> 포도</li>
+        <li class=" select"> 바나나</li>
+        <li> 딸기</li>
+    
+    </ul>
+    
+</body>
+</html>
+    결과값::
+    ![image](https://user-images.githubusercontent.com/107772468/237007394-96ec7987-c99b-4bbd-be97-267593029581.png)
+    
+    
+ ##2탄##
+    
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .select{color:red;}
+        .item{ color: blue;}
+        .header{ background: yellow;}
+        .select2{color: green;}
+    </style>
+</head>
+<body>
+    <h1 class="header item"> 과일</h1>
+    <ul>
+        <li class=" select2"> 사과</li> 
+        <li> 포도</li>
+        <li class=" select"> 바나나</li>
+        <li> 딸기</li>
+    
+    </ul>
+    
+</body>
+</html>
+    
+    결과값:
+    ![image](https://user-images.githubusercontent.com/107772468/237008051-431e25c5-e749-418c-b4b9-8adbb6c35778.png)
+    
+### 박스 만들기###
+    
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{ width: 200px; height: 200px;
+        background: red;
+        border: 20px solid black;
+        margin: 20px;
+        padding: 30px;}
+    </style>
+    <div>
+    <h1> 글자 </h1>
+    </div>
+    
+</head>
+<body>
+    
+</body>
+</html>
+    
+결과값:
+    ![image](https://user-images.githubusercontent.com/107772468/237022875-d9df87ba-c1b8-4298-b0f0-553aa33b5524.png)
+
+    
+    
+###박스 안 이름###
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{ width: 200px; 
+            height: 200px;
+            background: red;
+            border: 20px solid black;
+        margin: 0 auto;
+        padding: 30px;
+        text-align: center;}
+        .box{ 
+        Border-width: thick; 
+        Border-style: dashed;
+        border-color: blue;
+        border-radius: 30px 30px 0px 0px;
+        text-align: center;
+        } 
+        </style>
+    
+    
+</head>
+<body>
+    <div class="box">
+        <h1> 장성우 </h1>
+        </div>
+</body>
+</html>
+
+    결과값:![image](https://user-images.githubusercontent.com/107772468/237025562-3d2104b8-5c0d-4415-89bc-c4e5131fc8bd.png)
+    
+  #### 글자 사이즈 바꾸는 법!!###
+    
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .a{font-size: 4em;}
+      .b{font-size: 32px;}
+      .c{font-size: 300%;}
+      .d{font-size: large/small;}
+
+        </style>
+    
+    
+</head>
+<body>
+        <h1> Lorem Ipsam </h1>
+        <p class="a"> 글자 </p>
+        <p class="b"> 글자 </p>
+        <p class="c"> 글자 </p>
+        <p class="d"> 글자 </p>
+        </div>
+</body>
+</html>
+
+결과값:![image](https://user-images.githubusercontent.com/107772468/237026938-ca4ed71c-6892-4347-9ca0-9f95c2b9faba.png)
+
+
